@@ -1,8 +1,11 @@
 import React from 'react';
 
+import { Heading } from '@chakra-ui/react';
+
 const App = (): JSX.Element => (
   <div className="App">
-    <h1>TODO</h1>
+    <Heading size="4xl">TODO</Heading>
+
   </div>
 );
 
